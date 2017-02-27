@@ -22,7 +22,7 @@ db_create_database_name = "cfartgallery"
 db_sql_file_to_import = "data/cfartgallery.sql"
 
 # synced folder configuration
-synced_webroot_local = "/home/jim/www/ncdevcon-com"
+synced_webroot_local = "../webroot"
 synced_webroot_box = "/var/www/html"
 
 Vagrant.configure("2") do |config|
