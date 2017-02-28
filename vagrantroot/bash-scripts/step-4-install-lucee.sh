@@ -18,9 +18,6 @@ if [ ! -d "/opt/lucee" ]; then
         wget --progress=bar:force lucee-$LUCEE_VERSION-pl0-linux-x64-installer.run http://cdn.lucee.org/downloader.cfm/id/179/file/lucee-$LUCEE_VERSION-pl0-linux-x64-installer.run
     fi
 
-    # echo "... Copying Lucee installer ..."
-    # sudo cp /vagrant/artifacts/lucee-$LUCEE_VERSION-pl0-linux-x64-installer.run /root
-    
     echo "... Add execute permissions on the Lucee installer file ..."
     chmod u+x lucee-$LUCEE_VERSION-pl0-linux-x64-installer.run
 
