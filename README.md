@@ -8,6 +8,7 @@ This project will stand up a complete (albiet simple) CFML development environme
 * Apache 2
 * Lucee v5
 * MariaDB
+* Mailcatcher
 
 ## My Configuration
 

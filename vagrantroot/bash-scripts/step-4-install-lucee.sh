@@ -6,7 +6,7 @@
 LUCEE_VERSION="5.1.1.065"
 LUCEE_PASSWORD="password"
 
-echo "================= START STEP-3-INSTALL-LUCEE.SH $(date +"%r") ================="
+echo "=========== START STEP-3-INSTALL-LUCEE.SH $(date +"%r") ================="
 echo " "
 echo "BEGIN setting up Lucee ..."
 
@@ -32,5 +32,5 @@ fi
 
 echo "... END setting up Lucee."
 echo " "
-echo "================= FINISH STEP-3-INSTALL-LUCEE.SH $(date +"%r") ================="
+echo "========== FINISH STEP-3-INSTALL-LUCEE.SH $(date +"%r") ================="
 echo " "

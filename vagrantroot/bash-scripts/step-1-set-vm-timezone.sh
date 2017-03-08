@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "==================================================================================="
+echo "========================================================================="
 echo "BEGIN Set VM timezone and perform some cleanup pre-install ..."
 
 echo $1 | sudo tee /etc/timezone && dpkg-reconfigure --frontend noninteractive tzdata

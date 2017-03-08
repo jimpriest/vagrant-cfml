@@ -1,7 +1,7 @@
 #!/bin/bash
 # lucee standalone assumes apache is installed and will install apache connector by default
 
-echo "================= START STEP-4-INSTALL-APACHE.SH $(date +"%r") ================="
+echo "========== START STEP-4-INSTALL-APACHE.SH $(date +"%r") ================="
 echo " "
 echo "BEGIN installing and configuring Apache ..."
 
@@ -18,5 +18,5 @@ sudo cp /vagrant/configs/dir.conf /etc/apache2/mods-enabled/dir.conf
 
 echo "... End installing and configuring Apache."
 echo " "
-echo "================= FINISH STEP-4-INSTALL-APACHE.SH $(date +"%r") ================="
+echo "========= FINISH STEP-4-INSTALL-APACHE.SH $(date +"%r") ================="
 echo " "

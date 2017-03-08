@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "================= START STEP-5-INSTALL-MARIADB.SH $(date +"%r") ================="
+echo "========= START STEP-5-INSTALL-MARIADB.SH $(date +"%r") ================="
 echo " "
 echo "BEGIN Database server setup ..."
 
@@ -42,4 +42,4 @@ echo "FLUSH PRIVILEGES;" | mysql -uroot -p$1
 
 echo "... END Database server setup."
 echo " "
-echo "================= END STEP-5-INSTALL-MARIADB.SH $(date +"%r") ================="
+echo "=========== END STEP-5-INSTALL-MARIADB.SH $(date +"%r") ================="
